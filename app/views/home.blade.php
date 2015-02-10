@@ -21,6 +21,13 @@
 			</form>
 		</div>
 
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, esse obcaecati. Iure est officia dolorum, vodelectus facere sed laudantium suscipit quo?</p>
+
+		</div>
+
+		<!-- delete this eventually -->
+		<div class="row col-sm-12 col-md-12 col-lg-12">
+			<h1 style="color:#fff">This is appx how high I think this first DIV should be</h1>
 		</div>
 	</div>
 </div>
