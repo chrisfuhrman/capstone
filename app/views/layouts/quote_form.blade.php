@@ -109,7 +109,7 @@
 								<option value="700000">$700,000</option>
 								<option value="750000">$750,000</option>
 								<option value="850000">$850,000</option>
-								<option value="90000">$900,000</option>
+								<option value="900000">$900,000</option>
 								<option value="1000000">$1,000,000</option>
 								<option value="1250000">$1,250,000</option>
 								<option value="1500000">$1,500,000</option>
