@@ -19,6 +19,8 @@
 					</select>
 				</div>
 			</form>
+		</div>
+
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, esse obcaecati. Iure est officia dolorum, vodelectus facere sed laudantium suscipit quo?</p>
 

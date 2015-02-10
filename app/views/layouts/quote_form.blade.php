@@ -88,6 +88,15 @@
 
 
 
+				<!-- Birthdate -->
+					<div class="form-group">
+
+						<div class="input-group">
+							<label id="input-dob" for="dob">Date of birth</label>
+							<input name="dob" type="text" class="input-tag" id="dob" placeholder="MM/DD/YYYY">                   
+						</div>
+					</div>
+
 				<!-- Face Amount -->
 					<div class="form-group">
 						<div class="input-group">
@@ -183,12 +192,17 @@
 			</form>
 
 
+<h1>After the quote is submitted the quotes will be submited in these pannels</h1>
+
+@include('partials.quote_panels')
+
 
 
 		</div>
 	</div>
 	</div>
 </div>
+
 
 	<div class="container">
 

@@ -19,7 +19,6 @@ Route::get('quote', ['as' => 'lifeQuote', 'uses' => 'QuoteController@showLifeQuo
 
 Route::get('company', ['as' => 'company', 'uses' => 'CompanyController@showCompanyDashboard']);
 
-
 // Route::get('', ['as' => '', 'uses' => '']);
 
 // Authentication Routes
