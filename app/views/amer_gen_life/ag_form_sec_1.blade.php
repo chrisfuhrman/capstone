@@ -4,11 +4,22 @@
 @section('content')
 
 <h3>1. Primary Proposed Insured</h3>
+<form>
+<div class="form-group">
+	<label class="control-label" for="name">Name</label>
+	<div class="controls">
+		<div class="input-group col-sm-4">
+			<span class="input-group-addon"><i class="fa fa-male"></i></span>
+			<input type="text" id="name" class="form-control">
+		</div>
+	</div>
+</div>
+</form>
 
 <!-- Name ________________________________________________________________  -->
 <div>
 	{{ Form::label('name', 'Name:') }}
-	{{ Form::text('name', Input::old('name'), array('class' => 'form-control', 'placeholder' => 'name')) }}
+	<span class="input-group-addon"><i class="fa fa-male"></i></span> {{ Form::text('name', Input::old('name'), array('class' => 'form-control', 'placeholder' => 'name')) }}
 	{{ $errors->first('ssn', '<span class="help-block">:message</span>') }}
 </div>	
 
