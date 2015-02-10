@@ -22,6 +22,9 @@
 		<!-- Favicon -->
 	<link rel="icon" href="/assets/favicon.ico">
 
+	<link rel="stylesheet" href="/assets/css/switch.css">
+
+	
 
 </head>
 <body>

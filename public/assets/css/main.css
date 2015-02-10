@@ -1,6 +1,6 @@
 /*Remove default navbar border-radius*/
 * {
-	border-radius: 0 !important;
+	/*border-radius: 0 !important;*/
 	-moz-border-radius: 0 !important;
 }
 
@@ -16,13 +16,17 @@ body {
   ========================================
 */
 
+.navbar-inverse {
+	padding: 5px;
+	color: black;
+}
+
 .top-nav {
 	color: black;
-
 }
 
 .navbar {
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: 15px;
 

@@ -139,12 +139,13 @@
 
 					<!-- Smoker -->
 					<div class="form-group">
-						<label for="smoking status">Do you smoke?</label>
+						<span class="switch-label"><label class="switch switch-important" for="smoking status">Do you smoke?</label>
 							<select class="form-control input-tag" id="input-smoker">
 								<option disabled selected></option>
 								<option>Yes</option>
 								<option>No</option>
 							</select>
+						</span>
 					</div>
 
 					<!-- Health Class -->
@@ -266,8 +267,8 @@
 									<div class="controls">
 										<div class="col-md-1 col-sm-2 col-xs-3">
 										    <label class="switch switch-important">
-										      <input type="checkbox" class="switch-input" checked>
-										      <span class="switch-label" data-on="On" data-off="Off"></span>
+										      <input type="checkbox" class="switch-input" unchecked>
+										      <span class="switch-label" data-on="Yes" data-off="No"></span>
 										      <span class="switch-handle"></span>
 										    </label>
 										</div>
