@@ -6,6 +6,7 @@ class QuoteController extends BaseController
 		
 		return View::make('layouts.quote_form');
 
-	}
+	}	
+
 
 }
