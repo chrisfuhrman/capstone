@@ -9,7 +9,7 @@ class ApplicationController extends BaseController
 		// by product (basically which duration of term coverage)
 		// by state
 		
-		return View::make('layouts.app_form');
+		return View::make('amer_gen_life.ag_form_sec_1');
 
 
 	}
