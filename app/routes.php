@@ -17,6 +17,7 @@ Route::get('app', ['as' => 'app', 'uses' => 'ApplicationController@showLifeAppli
 
 Route::get('quote', ['as' => 'lifeQuote', 'uses' => 'QuoteController@showLifeQuote']);
 
+Route::get('company', ['as' => 'company', 'uses' => 'CompanyController@showCompanyDashboard']);
 
 // Route::get('', ['as' => '', 'uses' => '']);
 

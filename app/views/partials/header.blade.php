@@ -22,5 +22,5 @@
 		<!-- Favicon -->
 	<link rel="icon" href="/assets/favicon.ico">
 
-</head>
+
 <body>

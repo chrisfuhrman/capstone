@@ -87,6 +87,7 @@
 					</div>
 
 
+
 				<!-- Birthdate -->
 					<div class="form-group">
 
@@ -197,8 +198,179 @@
 
 
 
+
 		</div>
 	</div>
 	</div>
 </div>
+
+	<div class="container">
+
+		<div id="content" class="col-lg-10 col-sm-11">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="box">
+						<div class="box-header">
+							<h2>Life Insurance Quote</h2>
+						</div>
+
+
+
+<!-- put NAME FIELD IN THERE SOMEWHERE -->
+
+
+						<div class="box-content">
+							<form class="form-horizontal">
+
+								<div class="form-group">
+									<label class="control-label" for="name">Name</label>
+									<div class="controls">
+										<div class="input-group col-sm-4">
+											<span class="input-group-addon"><i class="fa fa-male"></i></span>
+											<input type="text" id="name" class="form-control">
+										</div>
+									</div>
+								</div>		
+
+								<div class="form-group">
+									<label class="control-label" for="state">Your State</label>
+									<div class="controls">
+										<div class="input-group col-sm-4">
+											<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+											<input type="text" id="state" class="form-control">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="control-label" for="date of birth">Date of birth</label>
+									<div class="controls">
+										<div class="input-group col-sm-4">
+											<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+											<input type="text" id="date" class="form-control">
+										</div>
+									<span class="help-block col-sm-8">ex. MM/DD/YEAR</span>
+									</div>
+								</div>	
+
+								<div class="form-group">
+									<label class="control-label" for="date">Coverage Amount</label>
+									<div class="controls">
+										<div class="input-group col-sm-4">
+											<span class="input-group-addon"><i class="fa fa-usd"></i></span>
+											<input type="text" id="date" class="form-control">
+										</div>
+									<span class="help-block col-sm-8">ex. MM/DD/YEAR</span>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="control-label" for="duration">Length of Coverage</label>
+									<div class="controls">
+										<div class="input-group col-sm-4">
+											<span class="input-group-addon"><i class="fa fa-tachometer"></i></span>
+											<input type="text" id="duration" class="form-control">
+										</div>
+									<span class="help-block col-sm-8">ex. MM/DD/YEAR</span>
+									</div>
+								</div>
+	
+
+								<div class="form-group">
+									<label class="control-label" for="smoking status">Do you smoke?</label>
+									<div class="controls">
+										<div class="col-md-1 col-sm-2 col-xs-3">
+										    <label class="switch switch-important">
+										      <input type="checkbox" class="switch-input" checked>
+										      <span class="switch-label" data-on="On" data-off="Off"></span>
+										      <span class="switch-handle"></span>
+										    </label>
+										</div>
+									</div>
+								</div>
+								
+								<div class="form-actions">
+								  <button type="submit" class="btn btn-primary">Next</button>
+								</div>
+							</form>   
+						</div>
+					</div>
+				</div><!--/col-->
+
+			</div><!--/row-->		
+		</div><!-- end: Content -->
+
+	</div>
+
+
+
+
+
+	@include('partials.quote_panels')
+
+@stop
+
+
+
+@section('bottom-script')
+	<!-- start: JavaScript-->
+	<!--[if !IE]>-->
+
+			<script src="assets/js/jquery-2.1.0.min.js"></script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script src="assets/js/jquery-1.11.0.min.js"></script>
+	
+	<![endif]-->
+
+	<!--[if !IE]>-->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='assets/js/jquery-2.1.0.min.js'>"+"<"+"/script>");
+		</script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script type="text/javascript">
+	 	window.jQuery || document.write("<script src='assets/js/jquery-1.11.0.min.js'>"+"<"+"/script>");
+		</script>
+		
+	<![endif]-->
+	<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	
+		
+	
+	
+	<!-- page scripts -->
+	<script src="assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="assets/js/jquery.sparkline.min.js"></script>
+	<script src="assets/js/jquery.chosen.min.js"></script>
+	<script src="assets/js/jquery.cleditor.min.js"></script>
+	<script src="assets/js/jquery.autosize.min.js"></script>
+	<script src="assets/js/jquery.placeholder.min.js"></script>
+	<script src="assets/js/jquery.maskedinput.min.js"></script>
+	<script src="assets/js/jquery.inputlimiter.1.3.1.min.js"></script>
+	<script src="assets/js/bootstrap-datepicker.min.js"></script>
+	<script src="assets/js/bootstrap-timepicker.min.js"></script>
+	<script src="assets/js/moment.min.js"></script>
+	<script src="assets/js/daterangepicker.min.js"></script>
+	<script src="assets/js/jquery.hotkeys.min.js"></script>
+	<script src="assets/js/bootstrap-wysiwyg.min.js"></script>
+	<script src="assets/js/bootstrap-colorpicker.min.js"></script>
+	
+	<!-- theme scripts -->
+	<script src="assets/js/custom.min.js"></script>
+	<script src="assets/js/core.min.js"></script>
+	
+	<!-- inline scripts related to this page -->
+	<script src="assets/js/pages/form-elements.js"></script>
+	
+	<!-- end: JavaScript-->
+
 @stop
