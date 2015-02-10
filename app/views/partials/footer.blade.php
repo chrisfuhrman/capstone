@@ -29,6 +29,7 @@
 <section id="sub-footer">
 	<div class="container">
 		<div class="row">
+
 			<p class="text-muted pull-right">&copy; InsureJoy, Inc.</p>
 		</div>
 	</div>
